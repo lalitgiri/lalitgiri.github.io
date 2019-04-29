@@ -1,0 +1,17 @@
+body {
+    margin: 0 auto;
+    background: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    background: black;
+    opacity: 0.7;
+    height: 10%;
+    padding: 1em;
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 1em;
+}
