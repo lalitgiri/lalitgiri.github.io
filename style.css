@@ -33,12 +33,12 @@ div ul li{
     font-size: 1.5em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-/* div ul li a:active,:visited,:link{
+div ul li a:active,:visited,:link{
     color:black;
     padding:0.5em;
     margin:1em;
     border-radius: 10%;
   
    
-} */
+}
 
