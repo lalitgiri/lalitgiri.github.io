@@ -15,6 +15,9 @@ body {
     font-family: cursive;
     font-size: 1em;
 }
+div{
+    height: auto;
+}
 
 ul{
     background-color: bisque;  
