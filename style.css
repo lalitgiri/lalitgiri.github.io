@@ -15,33 +15,29 @@ body {
     font-family: cursive;
     font-size: 1em;
 }
-div{
-    height: auto;
-}
 
-ul{
-    background-color: bisque;  
+ul{  
     margin: 2vw;  
-    opacity: 0.7; 
-    box-sizing: border-box;
-    border: none;
-    border-radius: 5%;
-    width: 20vw;
+    border: none;  
+    width:100%;
     transition: 1s;
     height: 80%;
+    display: inline-table;
 }
-div ul li{
-    display: flex;
-    line-height: 1em;
+nav ul li{
+    display: inline-table;
+    background-color: bisque;  
+    margin: 2%;
+    padding: 1%;
+    border-radius: 5%;
     font-size: 1.5em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 div ul li a:active,:visited,:link{
     color:black;
     padding:0.5em;
     margin:1em;
     border-radius: 10%;
-  
-   
 }
 
