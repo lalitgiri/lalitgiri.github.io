@@ -18,30 +18,31 @@ body {
     font-size: 1em;
 }
 
+nav{
+    margin: 5%;
+}
 ul {
     list-style-type: none;
-    margin: 1vw;
-    border: none;
-    width: auto;
-    transition: 1s;
-    height: 80%;
-   
+   /* transition: 1s; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 5%;
+    grid-row-gap: 10%;
+    grid-template-columns: repeat(4, [col-start] 1fr);
 }
 
 nav ul li {
-    display: inline-flex;
-    background-color: bisque;
-    margin: 2%;
-    padding: 1%;
     border-radius: 5%;
     font-size: 1.5em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
+    text-align: center;    
+    background: black;
+    opacity: 0.8;
+    padding: 2%;
 }
 
-div ul li a:active, :visited, :link {
-    color: black;
-    padding: 0.5em;
-    margin: 1em;
-    border-radius: 10%;
+nav ul li a:active, :visited, :link {
+    color: white;
+  
 }
